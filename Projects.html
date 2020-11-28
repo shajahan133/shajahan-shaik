@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shajahan</title>
+    <style>
+        body{
+            background-color:cadetblue;
+        }
+        .paper{
+            background-color: white;
+            margin: 0px 100px;
+            padding: 5%;
+            width: 60%;
+            height: 1300px;
+            border: 1px rgb(78, 78, 34) solid ;
+            box-shadow: 20px 20px 50px 15px rgb(29, 36, 32);
+        }
+        #headers{
+            text-align: center;
+            margin: -40px -50px;
+            font-size: 20px;
+            font-style: italic;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: darkgoldenrod;
+        }
+        #line{
+            margin: 120px 0px;
+            width: 100%;
+            height: 2px;
+            background-color: rgb(19, 20, 19);
+        }
+        .navbar{
+            
+        }
+        ul{
+            list-style: none;
+            margin:-100px 0px;
+            padding: 0px;
+            width: 25%;
+            box-shadow: 5px 5px 10px 10px gray;
+        }
+        li a{
+            background-color: black;
+            color: white;
+            text-align: center;
+            display: block;
+            color: rgb(255, 255, 255);
+            padding: 15px 16px;
+            text-decoration: none;
+            border: 1px black solid;
+            margin-bottom: 2px;
+        }
+        a:hover{
+            background-color: chocolate;
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+        }
+        #image{
+            float: right;
+            margin: -160px 10px;
+            height: 270px;
+            width: 250px;
+        }
+        #downButton{
+            color: white;
+            margin: -1450px 100px;
+            background-color: rgb(0, 0, 0);
+            padding: 10px;
+            width: 5%;
+            float: right;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgb(0, 0, 0);
+        }
+        #upButton{
+            color: white;
+            margin: -100px 100px;
+            background-color: rgb(0, 0, 0);
+            padding: 10px;
+            width: 5%;
+            float: right;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgb(0, 0, 0);
+        }
+        #about{
+            color: green;
+        }
+        #downButton:hover{
+            background-color: white;
+            color: black;
+            box-shadow: 5px 5px 10px rgb(98, 224, 108);
+        }
+        #upButton:hover{
+            background-color: white;
+            color: black;
+            box-shadow: 5px 5px 50px 10px rgb(94, 201, 99);
+        }
+        #articles{
+            margin: 150px 0px;
+            font-size: 20px;
+            box-shadow: 5px 5px 50px 10px gray;
+            padding: 1px 30px;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="paper">
+        <header id="headers">
+            <h1> SHAJAHAN SHAIK</h1>
+            <h3>(Developer)</h3>
+        </header>
+        
+        <hr id="line">
+        <nav>
+            <div class="navbar">
+                <ul>
+                    <li><a href="About.html" >About</a></li>
+                    <li><a href="Qualification.html">Qualification</a></li>
+                    <li><a href="Skills.html" >Skills</a></li>
+                    <li><a href="Projects.html">Projects</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+                <img id="image" src="Shajahan.jpeg" alt="shajahan_photo" title="shajahan_shaik" > 
+            </div>
+            
+        </nav>
+        <div id="articles">
+            <h2><u> Projects</u></h2>
+
+            <h3><b>Personal Projects</b></h3>
+            
+            <p><b>1)My Blog: </b><a href="About.html">Click Me To Open This Blog</a></p>
+            
+            <p><blockquote> I am created my blog my self. In this blog i'm inserted all my details, it was Personal, Educational and my Skills.</blockquote></p>
+            
+            <p><b>2) Get The Way 3D: </b><a href="Data/GTW_3D.apk" download="GTW_3D">Click Me To Download This Game</a></p>
+            
+            <p><blockquote>Get the way is a 3D Game for Mobile. I made this Game by using Unity3D engine and I used to create this game coding is C#. </blockquote></p>
+            
+            <h3><b>Acadamic Projects</b></h3>
+            
+            <p><b>1) Evaluating and Finding out the Money Laundering Accounts in Online Social Networks</b></p>
+            
+            <p><blockquote>
+                This is My M.Tech Acadamic Project. Aim of this project is to finding the fraud Accounts in Social Networks. 
+                In this I Found three different Fake Accounts. They are, 1) Money Laundering Accounts, 2) Phishing Attackers, 3) Exploit Vulnerability. 
+            </blockquote>
+            
+            </p>
+            
+            <p><b>2) Enabling Cloud Storage Auditing with KeyExposure Resistance</b></p>
+            
+            <p><blockquote>This is My B.Tech Acadamic Project. Aim of this project is to securly transform a file one to another. I am used keys(public and private keys) in this project. 
+               Used Programming Languages are, HTML,CSS and JavaScript for frontend, J2EE is used for server side, mySQL for Database and tomcat is server.  
+            </blockquote></p>
+        </div>
+        
+    </div>
+    <div >
+        <h3><a id="downButton" href="#upButton">Down</a></h3>
+    </div>
+    <div >
+        <h3><a id="upButton" href="#downButton">Up</a></h3>
+    </div>
+    
+    
+</body>
+</html>
